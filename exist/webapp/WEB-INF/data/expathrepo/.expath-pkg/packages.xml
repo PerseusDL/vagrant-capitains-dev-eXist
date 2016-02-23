@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><packages xmlns="http://expath.org/ns/repo/packages">
+<package name="http://exist-db.org/apps/shared" dir="shared-0.4.0" version="0.4.0"/>
+
+<package version="0.4.2" dir="dashboard-0.4.2" name="http://exist-db.org/apps/dashboard"/>
+<package version="0.1.6" dir="xqjson-0.1.6" name="http://xqilla.sourceforge.net/pkg/xqjson"/>
+
+
+<package version="2.1.2" dir="eXide-2.1.2" name="http://exist-db.org/apps/eXide"/>
+<package version="0.4" dir="markdown-0.4" name="http://exist-db.org/apps/markdown"/>
+<package version="0.7" dir="fundocs-0.7" name="http://exist-db.org/apps/fundocs"/>
+
+<package version="594" dir="xsltforms-594" name="http://exist-db.org/apps/xsltforms"/>
+
+<package version="1.0" dir="functx-1.0" name="http://www.functx.com"/>
+
+<package version="0.1.5" dir="inventory-maker-0.1.5" name="http://github.com/Capitains/InventoryMaker"/>
+<package version="0.2.7" dir="CTS5XQ-0.2.7" name="http://github.com/PerseusDL/CTS5XQ"/>
+</packages>

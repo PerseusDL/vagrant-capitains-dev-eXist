@@ -1,0 +1,43 @@
+2016-02-23 18:35:39,947 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:120) - Configuring eXist from /vagrant/exist/tools/wrapper/bin/../../../conf.xml 
+2016-02-23 18:35:39,949 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:122) - Running with Java 1.7.0_95 [Oracle Corporation (OpenJDK Client VM) in /usr/lib/jvm/java-7-openjdk-i386/jre] 
+2016-02-23 18:35:39,950 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:128) - Running as user 'root' 
+2016-02-23 18:35:39,986 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:131) - [eXist Version : 2.2] 
+2016-02-23 18:35:39,987 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:133) - [eXist Build : 20141120] 
+2016-02-23 18:35:39,987 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:135) - [eXist Home : unknown] 
+2016-02-23 18:35:39,987 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:137) - [Git commmit : master-5c5aadc] 
+2016-02-23 18:35:39,988 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:140) - [Operating System : Linux 3.13.0-77-generic i386] 
+2016-02-23 18:35:39,988 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:145) - [jetty.home : ../../../tools/jetty] 
+2016-02-23 18:35:39,988 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:147) - [log4j.configuration : file:../conf/log4j.xml] 
+2016-02-23 18:35:54,403 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:35:56,728 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:35:59,424 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:35:59,547 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document data.xconf 
+2016-02-23 18:36:08,626 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:36:14,735 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:36:18,558 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:36:19,364 [WrapperListener_start_runner] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:36:24,769 [WrapperListener_start_runner] INFO  (JettyStart.java [lifeCycleStarting]:413) - Jetty server starting... 
+2016-02-23 18:36:29,692 [WrapperListener_start_runner] INFO  (JettyStart.java [lifeCycleStarted]:421) - Jetty server started. 
+2016-02-23 18:36:29,697 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:233) - ----------------------------------------------------- 
+2016-02-23 18:36:29,698 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:234) - Server has started on ports 8080 8443. Configured contexts: 
+2016-02-23 18:36:29,698 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:243) - '/exist' 
+2016-02-23 18:36:29,698 [WrapperListener_start_runner] INFO  (JettyStart.java [run]:281) - ----------------------------------------------------- 
+2016-02-23 18:46:03,808 [eXistThread-42] DEBUG (LocalCollection.java [storeResource]:769) - storing binary resource inventory-maker.xar 
+2016-02-23 18:46:05,038 [eXistThread-42] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:47:05,967 [eXistThread-51] DEBUG (LocalCollection.java [storeResource]:769) - storing binary resource CTS5XQ.xar 
+2016-02-23 18:47:06,257 [eXistThread-51] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:49:17,929 [eXistThread-46] DEBUG (LocalCollection.java [storeResource]:769) - storing binary resource canonical-latinLit-0.1.xar 
+2016-02-23 18:49:30,834 [eXistThread-46] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:53:32,998 [eXistThread-46] DEBUG (LocalCollection.java [storeResource]:769) - storing binary resource inventory-maker-0.1.5.xar 
+2016-02-23 18:53:33,671 [eXistThread-46] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 18:54:42,302 [eXistThread-47] DEBUG (LocalCollectionManagementService.java [removeCollection]:193) - removing collection /db/db 
+2016-02-23 18:55:33,783 [eXistThread-59] DEBUG (LocalCollection.java [storeResource]:761) - storing document test.xml 
+2016-02-23 18:58:12,354 [eXistThread-59] DEBUG (LocalCollection.java [storeResource]:761) - storing document test.xml 
+2016-02-23 18:59:48,026 [eXistThread-59] DEBUG (LocalCollection.java [storeResource]:761) - storing document fad1cc4e216b2c975cd8c92021b98a17.xml 
+2016-02-23 19:02:25,952 [eXistThread-60] DEBUG (LocalCollection.java [storeResource]:769) - storing binary resource CTS5XQ.xar 
+2016-02-23 19:02:26,415 [eXistThread-60] DEBUG (LocalCollection.java [storeResource]:761) - storing document collection.xconf 
+2016-02-23 19:03:38,431 [eXistThread-60] DEBUG (LocalCollectionManagementService.java [removeCollection]:193) - removing collection /db/urns-cache/urn_cts_latinLit_phi0959.phi001.perseus-lat2 
+2016-02-23 19:03:45,733 [eXistThread-60] DEBUG (LocalCollection.java [removeResource]:703) - removing test.xml 
+2016-02-23 19:29:21,207 [WrapperListener_stop_runner] INFO  (JettyStart.java [shutdown]:376) - Database shutdown: stopping server in 1sec ... 
+2016-02-23 19:29:22,208 [jetty shutdown schedule] INFO  (JettyStart.java [lifeCycleStopping]:432) - Jetty server stopping... 
+2016-02-23 19:29:23,374 [jetty shutdown schedule] INFO  (JettyStart.java [lifeCycleStopped]:438) - Jetty server stopped 

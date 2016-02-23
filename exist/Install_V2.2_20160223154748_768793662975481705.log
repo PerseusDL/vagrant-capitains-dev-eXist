@@ -1,0 +1,5 @@
+--- Starting embedded database instance ---
+Feb 23, 2016 3:47:52 PM org.expath.pkg.repo.util.Logger info
+INFO: Create a new repository with storage: File system storage in /vagrant/exist/webapp/WEB-INF/data/expathrepo
+Setting admin user password...
+--- Initialization complete. Shutdown embedded database instance ---

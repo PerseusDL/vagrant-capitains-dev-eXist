@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="filter form-control" placeholder="Filter the resources (RegExp Enabled)"/>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="button" name="drop" class="btn btn-secondary transfer-to-source" value="Transfer -&gt;"/>
+                    </div>
+                    <div class="col-md-3"/>
+                </div>
+                <div data-template="app:listResources"/>
+            </div>
+            <div class="col-md-6">
+                <form class="row" method="POST" action="save.html">
+                    <div data-template="app:InventoryTitle"/>
+                    <input type="submit" name="submit" class="btn btn-primary" value="Submit"/>
+                    <div data-template="app:getInventory"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

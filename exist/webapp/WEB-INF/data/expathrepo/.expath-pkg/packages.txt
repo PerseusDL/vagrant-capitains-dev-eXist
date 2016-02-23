@@ -1,0 +1,10 @@
+shared-0.4.0 http://exist-db.org/apps/shared 0.4.0
+dashboard-0.4.2 http://exist-db.org/apps/dashboard 0.4.2
+xqjson-0.1.6 http://xqilla.sourceforge.net/pkg/xqjson 0.1.6
+eXide-2.1.2 http://exist-db.org/apps/eXide 2.1.2
+markdown-0.4 http://exist-db.org/apps/markdown 0.4
+fundocs-0.7 http://exist-db.org/apps/fundocs 0.7
+xsltforms-594 http://exist-db.org/apps/xsltforms 594
+functx-1.0 http://www.functx.com 1.0
+inventory-maker-0.1.5 http://github.com/Capitains/InventoryMaker 0.1.5
+CTS5XQ-0.2.7 http://github.com/PerseusDL/CTS5XQ 0.2.7

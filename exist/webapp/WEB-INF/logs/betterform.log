@@ -1,0 +1,1 @@
+2016-02-23 18:36:26,596 [WrapperListener_start_runner] WARN  (WebFactory.java [initLogging]:244) - Could not find /vagrant/exist/webapp/WEB-INF/log4j.xml 
