@@ -39,20 +39,22 @@ Vagrant.configure(2) do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
+
+  config.vm.define :CapitainsDev do |t|
+  end
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
 
   #
    config.vm.provider "virtualbox" do |vb|
-     vb.name = "CapitainsDev"
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
      vb.memory = "1024"
 
-     # network card
+     # network card - may need to comment this out on mac and windows
      vb.customize ["modifyvm", :id, "--nictype1", "Am79C973"]
    end
   #
@@ -71,5 +73,4 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
    config.vm.provision :shell, :path => "bootstrap.sh"
    config.vm.provision :shell, :path => "apps.sh", :privileged => false
-   #config.vm.provision :shell, :path => "run.sh", :privileged => false, :run => "always"
 end
