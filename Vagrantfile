@@ -60,12 +60,12 @@ Vagrant.configure(2) do |config|
   # config.vm.synced_folder "/Users/JohnSmith/Documents/canonical-latinLit", "/vagrant_data/latinLit" # config.vm.synced_folder "/Users/JohnSmith/Documents/canonical-greekLit", "/vagrant_data/greekLit"
   # this makes it possible for the Vagrant Box to read the textual data
   # directly from your local machine
-  config.vm.synced_folder "/home/balmas/workspace/canonical-latinLit", "/vagrant_data/latinLit"
-  config.vm.synced_folder "/home/balmas/workspace/canonical-greekLit", "/vagrant_data/greekLit"
+  config.vm.synced_folder "/home/user/canonical-latinLit", "/vagrant_data/latinLit"
+  config.vm.synced_folder "/home/user/canonical-greekLit", "/vagrant_data/greekLit"
 
 
   # this just sets the name of the Vagrant host. Don't change.
-  config.vm.define :CapitainsDev do |t|
+  config.vm.define :CapitainsDevExist do |t|
   end
 
    config.vm.provider "virtualbox" do |vb|
