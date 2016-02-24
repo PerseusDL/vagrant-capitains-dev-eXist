@@ -39,7 +39,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 5000, host: 5000
 
   # 8100 will be the default port for Nemo
-  config.vm.network "forwarded_port", guest: 8100, host: 8080
+  config.vm.network "forwarded_port", guest: 8100, host: 8100
 
   # 8080 will be the default port for eXistDB
   config.vm.network "forwarded_port", guest: 8080, host: 8080
@@ -60,8 +60,8 @@ Vagrant.configure(2) do |config|
   # config.vm.synced_folder "/Users/JohnSmith/Documents/canonical-latinLit", "/vagrant_data/latinLit" # config.vm.synced_folder "/Users/JohnSmith/Documents/canonical-greekLit", "/vagrant_data/greekLit"
   # this makes it possible for the Vagrant Box to read the textual data
   # directly from your local machine
-  config.vm.synced_folder "/canonical-latinLit", "/vagrant_data/latinLit"
-  config.vm.synced_folder "/canonical-greekLit", "/vagrant_data/greekLit"
+  config.vm.synced_folder "/home/balmas/workspace/canonical-latinLit", "/vagrant_data/latinLit"
+  config.vm.synced_folder "/home/balmas/workspace/canonical-greekLit", "/vagrant_data/greekLit"
 
 
   # this just sets the name of the Vagrant host. Don't change.

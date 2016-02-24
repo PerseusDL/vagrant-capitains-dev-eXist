@@ -7,3 +7,6 @@
 
 # Vagrant
 .vagrant
+
+# eXist
+exist/
